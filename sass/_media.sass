@@ -1,0 +1,307 @@
+@media (max-width: 1200px)
+    .menu
+        &_item
+            padding-right: 20px
+        &_link
+            font-size: 13px
+    .subheader
+        &_number
+            margin-left: 52px
+    .promo
+        &_header
+            font-size: 50px
+    .reason
+        .reasons_block
+            align-items: flex-start
+        .reasons_descr
+            width: 300px
+    .mobile
+        &_item_1
+            width: 300px
+        &_item_2
+            width: 300px
+        &_item_3
+            width: 300px
+        &_item_4
+            width: 300px
+        &_item_5
+            width: 300px
+        &_item_6
+            width: 300px
+    .footer
+        .ft_title
+            padding: 0px 295px
+        .ft_subtitle
+            padding: 0px 245px
+@media (max-width: 991px)
+    .menu
+        padding: 13px 23px
+        &_item
+            padding-right: 14px
+        &_link
+            font-size: 11px
+    .subheader
+        img
+            width: 100%
+        &_number
+            margin-left: 21px
+            font-size: 18px
+        &_official
+            font-size: 12px
+        &_btn
+            margin-top: 26px
+            width: 156px
+            height: 35px
+    .car
+        img
+            width: 700px
+    .promo
+        &_header
+            font-size: 40px
+        &_subheader
+            font-size: 25px
+        &_descr
+            font-size: 14px
+    .reason
+        .reasons_block
+            flex-direction: column
+            align-items: center
+        .reasons_descr
+            width: 300px
+            margin-top: 25px
+    .mobile
+        &_item_1
+            width: 200px
+        &_item_2
+            width: 200px
+        &_item_3
+            width: 200px
+        &_item_4
+            width: 200px
+        &_item_5
+            width: 200px
+        &_item_6
+            width: 200px
+    .footer
+        .ft_title
+            padding: 0px 175px
+        .ft_subtitle
+            padding: 0px 140px
+    
+@media (max-width: 767px)     
+    .menu
+        position: fixed
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        top: 0
+        left: -100%
+        width: 50%
+        height: 100vh
+        padding: 20px 15px
+        background-color: rgba(0, 0, 0, .8)
+        transition: 0.6s all
+        &_active
+            left: 0  
+        &_item
+            padding-right: 0
+            border: none
+            margin: 10px 0
+        &_link
+            font-size: 20px
+    .subheader
+        img
+            width: 40%
+        &_number
+            position: absolute
+            margin-left: 350px
+            margin-top: -52px
+        &_call
+            display: none
+        &_btn
+            position: absolute
+            top: -46px
+            right: 46px
+            width: 131px
+            height: 31px
+            font-size: 12px
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(-50%)
+        width: 26px
+        height: 12px
+        span 
+            display: block 
+            height: 2px
+            width: 100%
+            background-color: #fff 
+            margin-bottom: 2px
+            transition: 0.5s all
+        &_active 
+            span 
+                margin-bottom: -2px 
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(45deg)
+    .promo
+        &_header
+            font-size: 36px
+
+    .reason
+        .title
+            font-size: 27px
+
+    .mobile
+        title
+            font-size: 27px
+        &_item_1
+            width: 300px
+        &_item_2
+            width: 300px
+        &_item_3
+            width: 300px
+        &_item_4
+            width: 300px
+        &_item_5
+            width: 300px
+        &_item_6
+            width: 300px
+    
+    .car
+        .title_white
+            font-size: 37px
+        img
+            width: 490px
+    .footer
+        .ft_title
+            padding: 0px 90px
+        .ft_subtitle
+            padding: 0px 60px
+
+@media (max-width: 575px)
+    nav
+        height: 30px
+    header
+        height: 30px
+    .subheader
+        height: 62px
+        margin-top: 29px
+        &_official
+            display: none
+        &_logo
+            position: absolute
+            width: 93%
+            left: 7%
+            margin-top: 19px
+        &_number
+            font-weight: 100
+            font-size: 12px
+            align-items: center
+            text-align: center
+            text-transform: uppercase
+            color: #FFFFFF
+            margin-left: 266px
+            margin-top: 11px
+        &_btn
+            width: 110px
+            height: 22px
+            font-weight: 400
+            font-size: 10px
+            align-items: center
+            text-align: center
+            text-transform: uppercase
+            color: #FFFFFF
+            margin-top: 78px
+    .promo
+        min-height: 400px
+        padding: 73px 0 35px 0
+        &_header
+            font-size: 30px
+            margin-top: 152px
+        &_subheader
+            font-size: 20px
+        &_descr
+            display: none
+        &_btn
+            width: 210px
+            height: 50px
+            font-size: 16px
+    
+    .reason
+        .reasons_round
+            margin: 0
+        .title
+            font-size: 16px
+            margin-top: 16px
+        .row
+            margin-top: -19px
+            justify-content: center
+            align-items: center
+
+    .mobile
+        .title
+            margin-top: 14px
+            font-size: 16px
+        &_subtitle
+            font-size: 14px
+        &_item_1
+            width: 290px
+        &_item_2
+            width: 290px
+        &_item_3
+            width: 290px
+        &_item_4
+            width: 290px
+        &_item_5
+            width: 290px
+        &_item_6
+            width: 290px
+        &_item_subtitle
+            font-size: 18px
+        
+    .car
+        .title_white
+            display: none
+        .subtitle_white
+            display: none
+        img
+            width: 300px 
+        &_descr
+            font-weight: 300
+            font-size: 17px
+            align-items: center
+            text-align: center
+            color: #FFFFFF
+
+    .terms
+        .title
+            font-size: 16px
+    
+    .world
+        .world_title
+            font-size: 16px
+        .world_descr
+            font-size: 14px
+            margin-top: 11px
+    
+    .footer
+        .ft_title
+            padding: 0px 0px
+        .ft_subtitle
+            padding: 0
+    
+    .menu
+        width: 85%
+        &_item
+            width: 100%
+            text-align: center
+            padding: 5px 0
+        &_link
+            display: block
+            
